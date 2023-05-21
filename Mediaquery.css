@@ -1,0 +1,75 @@
+body {
+    height: 100vh;
+    background-color: aquamarine;
+  }
+  
+  h1 {
+    font-size: 60px;
+    text-align: center;
+  }
+
+  .Lap-Lar,.Lap,.Tab,.Mob{
+    font-size: 40px;
+    text-align: center;
+    display: none;
+  }
+ 
+  @media screen and (min-width: 0px) {
+    body {
+      background-color: crimson;
+    }
+  
+    .mobile {
+      display: block;
+    }
+  }
+
+  @media screen and (min-width: 425px) {
+    body {
+      background-color: aqua;
+    }
+
+    .Tab {
+        display: block;
+      }
+  
+    .mobile {
+      display: none;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    body {
+      background-color: burlywood;
+    }
+    .Lap {
+        display: block;
+      }
+    .Tab {
+        display: none;
+      }
+  
+    .mobile {
+      display: none;
+    }
+  }
+  @media screen and (min-width: 1440px) {
+    body {
+      background-color:green;
+    }
+  
+    .Lap-Lar {
+      display: block;
+    }
+    .Lap {
+        display: block;
+      }
+    .Tab {
+        display: none;
+      }
+  
+    .mobile {
+      display: none;
+    }
+  }
+  
